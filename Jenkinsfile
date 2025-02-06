@@ -12,11 +12,6 @@ pipeline {
             }
         }
 
-        stage('Install dependencies') {
-            steps {
-                sh 'apt-get update && apt-get install -y build-essential'
-            }
-        }
 
         stage('Build') {
             steps {
