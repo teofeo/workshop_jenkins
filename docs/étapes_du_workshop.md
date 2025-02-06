@@ -1,6 +1,3 @@
-Voici un plan structuré pour ton workshop, expliquant de A à Z comment travailler avec Docker, récupérer le mot de passe, configurer Jenkins et interagir avec GitHub. Je vais le rédiger en Markdown pour toi.
-
----
 
 # Workshop Docker & Jenkins avec GitHub
 
@@ -20,7 +17,6 @@ Dans ce workshop, nous allons explorer les étapes suivantes :
 * Accès à une machine pour exécuter Jenkins.
 
 ---
-
 
 ## Étape 1 : Lancer un conteneur Docker avec Jenkins et ngrok
 
