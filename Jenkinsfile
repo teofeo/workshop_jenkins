@@ -28,9 +28,11 @@ pipeline {
     post {
         success {
             echo 'Build Successful!'
+            archiveArtifacts artifacts: '**/workshop_jenkins', allowEmptyArchive: true
         }
         failure {
             echo 'Build Failed!'
+            archiveArtifacts artifacts: '**/workshop_jenkins', allowEmptyArchive: true
         }
     }
 }
